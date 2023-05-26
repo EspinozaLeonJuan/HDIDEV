@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Rodrigo Lobos Queue</name>
+    <queueMembers>
+        <users>
+            <user>rodrigo.lobos@hdi.cl</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Whatsapp</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>MessagingSession</sobjectType>
+    </queueSobject>
+</Queue>

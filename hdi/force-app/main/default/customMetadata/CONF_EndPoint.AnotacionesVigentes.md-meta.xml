@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>AnotacionesVigentes</label>
+    <protected>false</protected>
+    <values>
+        <field>auth__c</field>
+        <value xsi:type="xsd:string">Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoienR6dGVjaCIsImV4cCI6MTk4NDY4MjQ4MH0.kJ-LVVO3dyPlhTBKNfQu9nwxhdkubZzWLWjtLGFKxRWCB5YZlIU26RUxB628swvaWjYjmVl8nuYiIR8-mxRVnQ</value>
+    </values>
+    <values>
+        <field>baseURL__c</field>
+        <value xsi:type="xsd:string">https://rcqa.hdi.cl/esb-ws-gtw/ConectorUniversalSiniestro/GetCertificadoAnotacionesVigentes</value>
+    </values>
+</CustomMetadata>

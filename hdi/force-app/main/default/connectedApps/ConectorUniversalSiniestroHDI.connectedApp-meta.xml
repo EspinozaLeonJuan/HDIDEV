@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>gonzalo.alcorcer@externos.hdi.cl</contactEmail>
+    <contactPhone>2616666666</contactPhone>
+    <label>ConectorUniversalSiniestroHDI</label>
+    <oauthConfig>
+        <callbackUrl>https://RCQA.hdi.cl/esb-ws-gtw/ConectorUniversalSiniestro/GetCertificadoAnotacionesVigentes</callbackUrl>
+        <certificate>MIIEnDCCA4SgAwIBAgIOAYYO3LRUAAAAAA23VHUwDQYJKoZIhvcNAQELBQAwgYsxIzAhBgNVBAMMGkNvbmVjdG9yVW5pdmVyc2FsU2luaWVzdHJvMRgwFgYDVQQLDA8wMERESDAwMDAwMDU2MFExFzAVBgNVBAoMDlNhbGVzZm9yY2UuY29tMRYwFAYDVQQHDA1TYW4gRnJhbmNpc2NvMQswCQYDVQQIDAJDQTEMMAoGA1UEBhMDVVNBMB4XDTIzMDIwMTIxMjMxMFoXDTI0MDIwMTEyMDAwMFowgYsxIzAhBgNVBAMMGkNvbmVjdG9yVW5pdmVyc2FsU2luaWVzdHJvMRgwFgYDVQQLDA8wMERESDAwMDAwMDU2MFExFzAVBgNVBAoMDlNhbGVzZm9yY2UuY29tMRYwFAYDVQQHDA1TYW4gRnJhbmNpc2NvMQswCQYDVQQIDAJDQTEMMAoGA1UEBhMDVVNBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkWtLuZy4NZDa9t/TmIZOMsVoqW1miocmQ1UMcCOMnhlRqGxW6r0gJLuAcJpbdTOA0JnYPgXoq/+SmtwhNuqAjRw6s6FVHUyr7tk380ToCG7jIpczrLnTItstWZ6HlccHEGwPykJ7RmXhZVlyPhbYW/e9hb+E1cOG2LmxxzOWVh/fBbORo0l4e5VBcZncZ6MTViKUdh51pmyc5hyfTFlpZZ62hpfkI2BKa7mMU1dWUDamP3/NDQamqOuzPhtfzyBC6NcdSfr+DgIBg7/G7OYaGWfajm6QCgXicnrPKZ/zysIgwT56nP7LfRxB8D/RBN6T/ITZ7XioNn7h9NMSgxRZoQIDAQABo4H7MIH4MB0GA1UdDgQWBBTK+GQJbZ8uUemcH+crn1Zr9fTD2DAPBgNVHRMBAf8EBTADAQH/MIHFBgNVHSMEgb0wgbqAFMr4ZAltny5R6Zwf5yufVmv19MPYoYGRpIGOMIGLMSMwIQYDVQQDDBpDb25lY3RvclVuaXZlcnNhbFNpbmllc3RybzEYMBYGA1UECwwPMDBEREgwMDAwMDA1NjBRMRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQYIOAYYO3LRUAAAAAA23VHUwDQYJKoZIhvcNAQELBQADggEBAHyEkrEpF8W9chPrxCsyY/7zPaCqQjzkZDrMCH5ikilWxWZffFwKH7R00yJX62w1MRMJv7clcLIGwyJDj3fffDt4ogppKpbXf93KvkpuA1xS7fGFfFXgmpC52YuF+2qyu0uOePZSxlL0sBOU9imUvMQP3/5ILiw4kx+cCzz66HGU7FzuhZl+Tz3QtS2EmaJkWNRCygoXrg5w0pRgeTVB3+JlnynTAtnJcouONFOttsjGcI68Krfm0ukCRGDNxoWXJ0vizVvEds5zmpvfJteQ3FfXaCHI3uc1Ifpuqe3n/gTIRMYEdQPfFBFVJEECxnRmBlP7pnbhywXNTI9/k8LdbBY=</certificate>
+        <consumerKey>3MVG9ogKZdEXNjz1r3.A6o1O2htvr_j7GwHA8.CeskcycXnat3cBUTtXtckEtLqXMNNANab4_c9rDgDWIbh2E</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+        <scopes>Lightning</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExternalServiceRegistration xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>EndpointHDI</description>
+    <label>endPointHDI</label>
+    <namedCredentialReference>endpointHDI</namedCredentialReference>
+    <operations>
+        <active>true</active>
+        <name>postesbx2dwsx2dgtwconectoruniversalsiniestrogetcertificadoanotacionesvigentes</name>
+    </operations>
+    <registrationProviderType>Custom</registrationProviderType>
+    <schema>{
+  &quot;openapi&quot;: &quot;3.0.1&quot;,
+  &quot;info&quot;: {
+    &quot;title&quot;: &quot;defaultTitle&quot;,
+    &quot;description&quot;: &quot;defaultDescription&quot;,
+    &quot;version&quot;: &quot;0.1&quot;
+  },
+  &quot;servers&quot;: [{
+    &quot;url&quot;: &quot;https://rcqa.hdi.cl&quot;
+  }],
+  &quot;paths&quot;: {
+    &quot;/esb-ws-gtw/ConectorUniversalSiniestro/GetCertificadoAnotacionesVigentes&quot;: {
+      &quot;post&quot;: {
+        &quot;description&quot;: &quot;Auto generated using Swagger Inspector&quot;,
+        &quot;requestBody&quot;: {
+          &quot;content&quot;: {
+            &quot;application/json&quot;: {
+              &quot;schema&quot;: {
+                &quot;$ref&quot;: &quot;#/components/schemas/ConectorUniversalSiniestro_GetCertificadoAnotacionesVigentes_body&quot;
+              },
+              &quot;examples&quot;: {
+                &quot;0&quot;: {
+                  &quot;value&quot;: &quot;{\&quot;patente\&quot;:\&quot;lvkj25\&quot;}&quot;
+                }
+              }
+            }
+          }
+        },
+        &quot;responses&quot;: {
+          &quot;200&quot;: {
+            &quot;description&quot;: &quot;Auto generated using Swagger Inspector&quot;,
+            &quot;content&quot;: {
+              &quot;application/json; charset=utf-8&quot;: {
+                &quot;schema&quot;: {
+                  &quot;type&quot;: &quot;string&quot;
+                },
+                &quot;examples&quot;: {}
+              }
+            }
+          }
+        },
+        &quot;servers&quot;: [{
+          &quot;url&quot;: &quot;https://RCQA.hdi.cl&quot;
+        }]
+      },
+      &quot;servers&quot;: [{
+        &quot;url&quot;: &quot;https://RCQA.hdi.cl&quot;
+      }]
+    }
+  },
+  &quot;components&quot;: {
+    &quot;schemas&quot;: {
+      &quot;ConectorUniversalSiniestro_GetCertificadoAnotacionesVigentes_body&quot;: {
+        &quot;type&quot;: &quot;object&quot;,
+        &quot;properties&quot;: {
+          &quot;patente&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          }
+        }
+      }
+    },
+    &quot;securitySchemes&quot;: {
+      &quot;oauth2&quot;: {
+        &quot;type&quot;: &quot;oauth2&quot;,
+        &quot;flows&quot;: {
+          &quot;implicit&quot;: {
+            &quot;authorizationUrl&quot;: &quot;https: //rcqa.hdi.cl&quot;,
+            &quot;scopes&quot;: {
+              &quot;scope_name&quot;: &quot;Enter your scopes here&quot;
+            }
+          }
+        }
+      }
+    }
+  }
+}</schema>
+    <schemaType>OpenApi3</schemaType>
+    <serviceBinding>{&quot;compatibleMediaTypes&quot;:{}}</serviceBinding>
+    <status>Incomplete</status>
+    <systemVersion>3</systemVersion>
+</ExternalServiceRegistration>

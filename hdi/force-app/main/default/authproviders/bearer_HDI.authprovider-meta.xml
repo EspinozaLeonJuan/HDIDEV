@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuthProvider xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorizeUrl>https://RCQA.hdi.cl</authorizeUrl>
+    <consumerKey>eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoienR6dGVjaCIsImV4cCI6MTk4NDY4MjQ4MH0.kJ-LVVO3dyPlhTBKNfQu9nwxhdkubZzWLWjtLGFKxRWCB5YZlIU26RUxB628swvaWjYjmVl8nuYiIR8-mxRVnQ</consumerKey>
+    <consumerSecret>Placeholder_Value</consumerSecret>
+    <friendlyName>bearer HDI</friendlyName>
+    <includeOrgIdInIdentifier>false</includeOrgIdInIdentifier>
+    <providerType>OpenIdConnect</providerType>
+    <sendAccessTokenInHeader>true</sendAccessTokenInHeader>
+    <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
+    <sendSecretInApis>true</sendSecretInApis>
+    <tokenUrl>https://RCQA.hdi.cl</tokenUrl>
+</AuthProvider>
